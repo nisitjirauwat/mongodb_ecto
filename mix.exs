@@ -26,8 +26,8 @@ defmodule Mongo.Ecto.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:mongodb, "~> 0.4.7"},
-      {:ecto, "~> 3.0.5"},
+      {:mongodb, "~> 0.5.1"},
+      {:ecto, "~> 3.1.0"},
       {:excoveralls, "0.10.3", only: :test},
       {:ex_doc, ">= 0.0.0", only: :dev}
     ]
